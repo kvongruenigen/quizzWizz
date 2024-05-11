@@ -1,0 +1,65 @@
+{
+    "questions": [
+      {
+        "number": 1,
+        "question": "What is the powerhouse of the cell?",
+        "choices": ["Nucleus", "Ribosome", "Mitochondrion", "Endoplasmic Reticulum"],
+        "answer": "Mitochondrion"
+      },
+      {
+        "number": 2,
+        "question": "Which of the following is not a type of blood cell?",
+        "choices": ["Erythrocyte", "Leukocyte", "Thrombocyte", "Neuron"],
+        "answer": "Neuron"
+      },
+      {
+        "number": 3,
+        "question": "What is the primary function of red blood cells?",
+        "choices": ["Transport oxygen", "Fight infection", "Clotting", "Produce antibodies"],
+        "answer": "Transport oxygen"
+      },
+      {
+        "number": 4,
+        "question": "Which organ is responsible for detoxifying the blood?",
+        "choices": ["Liver", "Lungs", "Kidneys", "Pancreas"],
+        "answer": "Liver"
+      },
+      {
+        "number": 5,
+        "question": "What is the main function of the pancreas?",
+        "choices": ["Regulating blood sugar levels", "Producing bile", "Digesting proteins", "Filtering blood"],
+        "answer": "Regulating blood sugar levels"
+      },
+      {
+        "number": 6,
+        "question": "Which hormone regulates calcium levels in the blood?",
+        "choices": ["Insulin", "Thyroxine", "Cortisol", "Parathyroid hormone"],
+        "answer": "Parathyroid hormone"
+      },
+      {
+        "number": 7,
+        "question": "What is the function of the cerebellum?",
+        "choices": ["Regulating body temperature", "Coordinating movement", "Processing visual information", "Controlling hunger"],
+        "answer": "Coordinating movement"
+      },
+      {
+        "number": 8,
+        "question": "Which of the following is not a part of the central nervous system?",
+        "choices": ["Brain", "Spinal cord", "Peripheral nerves", "Retina"],
+        "answer": "Peripheral nerves"
+      },
+      {
+        "number": 9,
+        "question": "Which of the following is not a symptom of diabetes?",
+        "choices": ["Excessive thirst", "Weight gain", "Frequent urination", "Blurred vision"],
+        "answer": "Weight gain"
+      },
+      {
+        "number": 10,
+        "question": "What is the name of the smallest unit of life?",
+        "choices": ["Cell", "Molecule", "Atom", "Tissue"],
+        "answer": "Cell"
+      }
+      // Add more questions as needed...
+    ]
+  }
