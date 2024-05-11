@@ -50,10 +50,16 @@ h3 {
     align-items: center;
     max-width: 80rem; /* 80rem = 800px */
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .container > * {
     width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-center {
@@ -94,7 +100,7 @@ h3 {
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgb(101, 171, 190);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(101, 171, 190, 1);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -103,4 +109,27 @@ h3 {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+}
+
+/* FORMS */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+input {
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #6ee0e0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(101, 171, 190, 0.25);
+}
+
+input::placeholder {
+    color: #6ee0e0;
 }

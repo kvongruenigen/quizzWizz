@@ -1,65 +1,322 @@
-{
-    "questions": [
-      {
-        "number": 1,
-        "question": "What is the powerhouse of the cell?",
-        "choices": ["Nucleus", "Ribosome", "Mitochondrion", "Endoplasmic Reticulum"],
-        "answer": "Mitochondrion"
-      },
-      {
-        "number": 2,
-        "question": "Which of the following is not a type of blood cell?",
-        "choices": ["Erythrocyte", "Leukocyte", "Thrombocyte", "Neuron"],
-        "answer": "Neuron"
-      },
-      {
-        "number": 3,
-        "question": "What is the primary function of red blood cells?",
-        "choices": ["Transport oxygen", "Fight infection", "Clotting", "Produce antibodies"],
-        "answer": "Transport oxygen"
-      },
-      {
-        "number": 4,
-        "question": "Which organ is responsible for detoxifying the blood?",
-        "choices": ["Liver", "Lungs", "Kidneys", "Pancreas"],
-        "answer": "Liver"
-      },
-      {
-        "number": 5,
-        "question": "What is the main function of the pancreas?",
-        "choices": ["Regulating blood sugar levels", "Producing bile", "Digesting proteins", "Filtering blood"],
-        "answer": "Regulating blood sugar levels"
-      },
-      {
-        "number": 6,
-        "question": "Which hormone regulates calcium levels in the blood?",
-        "choices": ["Insulin", "Thyroxine", "Cortisol", "Parathyroid hormone"],
-        "answer": "Parathyroid hormone"
-      },
-      {
-        "number": 7,
-        "question": "What is the function of the cerebellum?",
-        "choices": ["Regulating body temperature", "Coordinating movement", "Processing visual information", "Controlling hunger"],
-        "answer": "Coordinating movement"
-      },
-      {
-        "number": 8,
-        "question": "Which of the following is not a part of the central nervous system?",
-        "choices": ["Brain", "Spinal cord", "Peripheral nerves", "Retina"],
-        "answer": "Peripheral nerves"
-      },
-      {
-        "number": 9,
-        "question": "Which of the following is not a symptom of diabetes?",
-        "choices": ["Excessive thirst", "Weight gain", "Frequent urination", "Blurred vision"],
-        "answer": "Weight gain"
-      },
-      {
-        "number": 10,
-        "question": "What is the name of the smallest unit of life?",
-        "choices": ["Cell", "Molecule", "Atom", "Tissue"],
-        "answer": "Cell"
-      }
-      // Add more questions as needed...
-    ]
-  }
+[
+    {
+      "question": "What is the powerhouse of the cell?",
+      "choice1": "Nucleus",
+      "choice2": "Ribosome",
+      "choice3": "Mitochondrion",
+      "choice4": "Endoplasmic Reticulum",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is not a type of blood cell?",
+      "choice1": "Erythrocyte",
+      "choice2": "Leukocyte",
+      "choice3": "Thrombocyte",
+      "choice4": "Neuron",
+      "answer": 4
+    },
+    {
+      "question": "What is the primary function of red blood cells?",
+      "choice1": "Transport oxygen",
+      "choice2": "Fight infection",
+      "choice3": "Clotting",
+      "choice4": "Produce antibodies",
+      "answer": 1
+    },
+    {
+      "question": "Which organ is responsible for detoxifying the blood?",
+      "choice1": "Liver",
+      "choice2": "Lungs",
+      "choice3": "Kidneys",
+      "choice4": "Pancreas",
+      "answer": 1
+    },
+    {
+      "question": "What is the main function of the pancreas?",
+      "choice1": "Regulating blood sugar levels",
+      "choice2": "Producing bile",
+      "choice3": "Digesting proteins",
+      "choice4": "Filtering blood",
+      "answer": 1
+    },
+    {
+      "question": "Which hormone regulates calcium levels in the blood?",
+      "choice1": "Insulin",
+      "choice2": "Thyroxine",
+      "choice3": "Cortisol",
+      "choice4": "Parathyroid hormone",
+      "answer": 4
+    },
+    {
+      "question": "What is the function of the cerebellum?",
+      "choice1": "Regulating body temperature",
+      "choice2": "Coordinating movement",
+      "choice3": "Processing visual information",
+      "choice4": "Controlling hunger",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is not a part of the central nervous system?",
+      "choice1": "Brain",
+      "choice2": "Spinal cord",
+      "choice3": "Peripheral nerves",
+      "choice4": "Retina",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is not a symptom of diabetes?",
+      "choice1": "Excessive thirst",
+      "choice2": "Weight gain",
+      "choice3": "Frequent urination",
+      "choice4": "Blurred vision",
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the smallest unit of life?",
+      "choice1": "Cell",
+      "choice2": "Molecule",
+      "choice3": "Atom",
+      "choice4": "Tissue",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is responsible for transmitting nerve impulses?",
+      "choice1": "Neuron",
+      "choice2": "Muscle cell",
+      "choice3": "Red blood cell",
+      "choice4": "Fibroblast",
+      "answer": 1
+    },
+    {
+      "question": "What is the primary function of white blood cells?",
+      "choice1": "Transporting oxygen",
+      "choice2": "Clotting blood",
+      "choice3": "Fighting infection",
+      "choice4": "Producing insulin",
+      "answer": 3
+    },
+    {
+      "question": "Which gland regulates metabolism?",
+      "choice1": "Adrenal gland",
+      "choice2": "Thyroid gland",
+      "choice3": "Pituitary gland",
+      "choice4": "Pancreas",
+      "answer": 2
+    },
+    {
+      "question": "What is the function of platelets in blood?",
+      "choice1": "Transporting nutrients",
+      "choice2": "Clotting blood",
+      "choice3": "Producing antibodies",
+      "choice4": "Regulating blood sugar levels",
+      "answer": 2
+    },
+    {
+      "question": "Which part of the brain controls basic bodily functions such as breathing and heart rate?",
+      "choice1": "Cerebrum",
+      "choice2": "Cerebellum",
+      "choice3": "Medulla oblongata",
+      "choice4": "Thalamus",
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the structure that connects the kidneys to the bladder?",
+      "choice1": "Urethra",
+      "choice2": "Ureter",
+      "choice3": "Esophagus",
+      "choice4": "Trachea",
+      "answer": 2
+    },
+    {
+      "question": "Which type of tissue covers the body's surfaces and lines internal organs?",
+      "choice1": "Epithelial tissue",
+      "choice2": "Connective tissue",
+      "choice3": "Muscle tissue",
+      "choice4": "Nervous tissue",
+      "answer": 1
+    },
+    {
+      "question": "What is the main function of the respiratory system?",
+      "choice1": "Digesting food",
+      "choice2": "Pumping blood",
+      "choice3": "Exchanging gases",
+      "choice4": "Regulating body temperature",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is a primary function of the skeletal system?",
+      "choice1": "Transporting oxygen",
+      "choice2": "Producing hormones",
+      "choice3": "Supporting the body",
+      "choice4": "Regulating metabolism",
+      "answer": 3
+    },
+    {
+      "question": "What is the function of the lymphatic system?",
+      "choice1": "Digesting food",
+      "choice2": "Producing red blood cells",
+      "choice3": "Filtering toxins and waste",
+      "choice4": "Regulating body temperature",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is a hormone produced by the adrenal glands?",
+      "choice1": "Estrogen",
+      "choice2": "Insulin",
+      "choice3": "Cortisol",
+      "choice4": "Thyroxine",
+      "answer": 3
+    },
+    {
+      "question": "What is the function of the gallbladder?",
+      "choice1": "Producing bile",
+      "choice2": "Filtering blood",
+      "choice3": "Regulating blood sugar levels",
+      "choice4": "Storing urine",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is not a component of blood?",
+      "choice1": "Plasma",
+      "choice2": "Platelets",
+      "choice3": "Neurons",
+      "choice4": "White blood cells",
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of the endocrine system?",
+      "choice1": "Regulating metabolism",
+      "choice2": "Producing antibodies",
+      "choice3": "Breaking down food",
+      "choice4": "Transporting oxygen",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is not a function of the skin?",
+      "choice1": "Protection against pathogens",
+      "choice2": "Producing hormones",
+      "choice3": "Regulating body temperature",
+      "choice4": "Sensation of touch",
+      "answer": 2
+    },
+    {
+      "question": "What is the role of hemoglobin in the blood?",
+      "choice1": "Regulating blood pressure",
+      "choice2": "Transporting oxygen",
+      "choice3": "Clotting blood",
+      "choice4": "Producing red blood cells",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is not a function of the immune system?",
+      "choice1": "Detecting and destroying pathogens",
+      "choice2": "Producing antibodies",
+      "choice3": "Regulating blood sugar levels",
+      "choice4": "Identifying foreign invaders",
+      "answer": 3
+    },
+    {
+      "question": "What is the primary function of the small intestine?",
+      "choice1": "Absorbing nutrients",
+      "choice2": "Filtering toxins",
+      "choice3": "Producing bile",
+      "choice4": "Storing waste",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is a characteristic of smooth muscle tissue?",
+      "choice1": "Voluntary control",
+      "choice2": "Striated appearance",
+      "choice3": "Found in the walls of blood vessels",
+      "choice4": "Found in skeletal muscles",
+      "answer": 3
+    },
+    {
+      "question": "What is the function of the hypothalamus?",
+      "choice1": "Regulating body temperature",
+      "choice2": "Producing hormones",
+      "choice3": "Coordinating movement",
+      "choice4": "Controlling hunger",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is not a function of the liver?",
+      "choice1": "Detoxifying the blood",
+      "choice2": "Storing bile",
+      "choice3": "Producing enzymes",
+      "choice4": "Producing insulin",
+      "answer": 4
+    },
+    {
+      "question": "What is the role of the alveoli in the respiratory system?",
+      "choice1": "Producing mucus",
+      "choice2": "Exchanging gases",
+      "choice3": "Pumping blood",
+      "choice4": "Regulating blood pressure",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is a function of the kidneys?",
+      "choice1": "Producing bile",
+      "choice2": "Filtering waste products",
+      "choice3": "Regulating blood sugar levels",
+      "choice4": "Producing insulin",
+      "answer": 2
+    },
+    {
+      "question": "What is the primary function of the medulla oblongata?",
+      "choice1": "Regulating body temperature",
+      "choice2": "Coordinating movement",
+      "choice3": "Controlling involuntary functions",
+      "choice4": "Processing visual information",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is a function of the lymphatic system?",
+      "choice1": "Producing hormones",
+      "choice2": "Transporting oxygen",
+      "choice3": "Filtering toxins and waste",
+      "choice4": "Digesting food",
+      "answer": 3
+    },
+    {
+      "question": "What is the role of the adrenal glands?",
+      "choice1": "Regulating blood sugar levels",
+      "choice2": "Producing adrenaline",
+      "choice3": "Filtering blood",
+      "choice4": "Producing bile",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is not a function of the skeletal system?",
+      "choice1": "Protecting internal organs",
+      "choice2": "Storing minerals",
+      "choice3": "Producing red blood cells",
+      "choice4": "Regulating blood pressure",
+      "answer": 4
+    },
+    {
+      "question": "What is the function of the cerebrospinal fluid?",
+      "choice1": "Regulating blood sugar levels",
+      "choice2": "Protecting the brain and spinal cord",
+      "choice3": "Producing neurotransmitters",
+      "choice4": "Controlling muscle movement",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is not a part of the central nervous system?",
+      "choice1": "Brain",
+      "choice2": "Spinal cord",
+      "choice3": "Peripheral nerves",
+      "choice4": "Retina",
+      "answer": 3
+    },
+    {
+      "question": "What is the function of the pituitary gland?",
+      "choice1": "Producing insulin",
+      "choice2": "Regulating blood pressure",
+      "choice3": "Producing growth hormones",
+      "choice4": "Filtering blood",
+      "answer": 3
+    }
+  ]
