@@ -24,7 +24,6 @@ fetch('https://opentdb.com/api.php?amount=50&type=multiple')
     const formattedQuestion = {
       question: loadedQuestion.question
     };
-    
     const answerChoices = [...loadedQuestion.incorrect_answers];
     // Randomly select a question
     formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
@@ -37,6 +36,7 @@ fetch('https://opentdb.com/api.php?amount=50&type=multiple')
     
     return formattedQuestion;
   })
+
   game.classList.remove('hidden');
   loader.classList.add('hidden');
   startGame();
@@ -52,7 +52,6 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions]; // Spread operator: creates a new array with the elements of the existing array
-    console.log(availableQuestions);
     getNewQuestion();
 }
 
@@ -74,7 +73,7 @@ getNewQuestion = () => {
     // Randomly select a question. Math.floor rounds down to the nearest whole number with max length of availableQuestions
     const questionIndex = Math.floor(Math.random() * availableQuestions.length); 
     currentQuestion = availableQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
+    question.innerHTML = currentQuestion.question;
 
     choices.forEach(choice => {
         const number = choice.dataset['number'];
